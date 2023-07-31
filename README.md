@@ -126,6 +126,9 @@ Evaluation metrics used:
 *  Accuracy
 *  Precision
 *  Recall
+
+  ![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/3a13f1b9-4598-49d6-81b6-08237d864016)
+
   
 # Deployment
 Deployed our model on Streamlit.
