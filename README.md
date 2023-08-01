@@ -67,19 +67,30 @@ Overall, our app's business understanding revolves around addressing the existin
 - Reducing the False Positive "recall" rates for mammograms.
 ## Data Understanding
 
-In this project, we will make use of mammography, which are X-ray images of the breast tissue. Mammograms are primarily used to identify any abnormalities or changes in breast tissue that may indicate the presence of a tumor or other abnormalities. The data set used was obtained from https://drive.google.com/file/d/12umDKmXJ8--ZmuiTrchSQRCs8SmRl12h/view?usp=sharing.
+In our project, we shall use mammogram images and their lables as our base of our web application. Mammograms are primarily used to identify any abnormalities or changes in breast tissue that may indicate the presence of a tumor or other abnormalities. The data set used can be downloaded from https://drive.google.com/file/d/12umDKmXJ8--ZmuiTrchSQRCs8SmRl12h/view?usp=sharing.
 
-The dataset contains a couple of subfolders, however, we shall base it on the training set that is in CSV format and has the labels to our images ( which are benign and malignant) our train set contains the breast tissue images that we shall use. The directories are: train, test, train_set, test_set and sample submission CSV files.
-## Visualizations
+We extracted the zip file and got four files:
+
+*  train - contains the images we will use to train our model.
+
+*  Training_set.csv - this csv file has contains the labels for the training images
+
+*  test - contains 1900+ images. We will use the images to test our model.
+
+*  Testing_set.csv
+
+*  sample_submission
+
+
 
 Distribution of classes in the data
 
-![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/0631ab6c-2bdc-4134-ae0b-7c9a0432948f)
+![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/d1905cae-d95c-47f5-a93f-12fda87eb0d5)
 
 Combined classes into Benign and Malignant
 Count of Class names
 
-![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/a722a818-9ec4-4b9d-b16f-40ac4ed4b67a)
+![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/3503a698-feb6-4827-bed2-16331df08b81)
 
 **Benign Images**
 
@@ -116,6 +127,8 @@ Architecture:
 
 **Decision Tree**
 * Trained the model using a Decision tree and improved the model by GridSearch.
+  ![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/3fdccf13-4308-4bbf-9501-7115d1a71296)
+
 
 ## Evaluation
 
@@ -128,6 +141,8 @@ Evaluation metrics used:
 *  Recall
 
   ![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/3a13f1b9-4598-49d6-81b6-08237d864016)
+  ![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/deca547c-237a-4da3-b6f6-f54147a829ef) ![image](https://github.com/Aquinate22/Capstone-Project/assets/121969694/ef1234f7-7647-4c00-9349-7a2fe031e458)
+
 
   
 # Deployment
